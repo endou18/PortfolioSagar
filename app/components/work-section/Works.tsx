@@ -13,30 +13,30 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
+      title: "Number Guessing Game (Binary Search Algorithm)",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
       liveLink: "https://offsetcomms.africa/",
       about:
-        "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
+        "Developed a console-based game that uses Binary Search Algorithm to guess the user’s number efficiently.Implemented recursive logic to continuously narrow down the number range until the correct number is found.",
+      stack: ["binary search", "javascript",],
       img: "/offset-folio.svg",
     },
     {
-      title: "Shortly",
+      title: "Web Chat Application",
       gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
       liveLink: "https://lnk-shortener.netlify.app/",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
+        "Built a real-time chat application similar to WhatsApp, allowing users to send and receive messages instantly.Implemented JWT authentication and MongoDB database for secure user login and message storage.",
+      stack: ["react.js", "express.js", "chakra ui", "node.js","socket.io", "mongo db"],
       img: "/shortly.svg",
     },
     {
-      title: "Where in the world",
+      title: "E-Commerce Website",
       gitLink: "https://github.com/adex-hub/where-in-the-world",
       liveLink: "https://where-in-the-world-ade.netlify.app/",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
+        "Developed a full-stack e-commerce platform with a user-friendly interface, dynamic pricing, and interactive offers.Integrated a payment gateway (Stripe API) for secure transactions.",
+      stack: ["react", "react-router", "javascript", "tailwindcss", "Stripe"],
       img: "/witw.svg",
     },
     // {
@@ -49,12 +49,12 @@ export default function Works() {
     //   img: "/todo.svg",
     // },
     {
-      title: "Multi-step form",
+      title: "Shop Stock Management",
       gitLink: "https://github.com/adex-hub/multi-step-form-main",
       liveLink: "https://ade-loremgaming.netlify.app/",
       about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
+        "Developed a stock management system to track gold and silver prices, storing historical data for reference.Implemented a sorting feature to efficiently filter stock and transaction history.",
+      stack: ["react.js", "mongo db", "material ui", "express.js", "node.js"],
       img: "/multistep.svg",
     },
   ];

@@ -27,29 +27,33 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I amplify brand voices through the web
+        I BUILD SCALABLE & INNOVATIVE SOLUTIONS FOR THE WEB
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
-            publicity or software solutions that streamline otherwise manual
-            processes, I love taking brands from point A to the their dreamy
-            point B and iteratively improve as time goes on.
+            My passion lies in crafting robust, scalable, and user-centric
+            applications that drive business success. Whether it's developing a
+            feature-rich web platform, optimizing backend systems for
+            efficiency, or designing seamless user experiences, I thrive on
+            solving complex challenges through code.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+            With a strong foundation in both frontend and backend technologies,
+            I specialize in developing applications that not only meet
+            functional requirements but also enhance performance and
+            maintainability. My journey started in late 2019, and since then, I
+            have continuously refined my skills, adopting best practices in
+            full-stack development, database management, cloud computing, and
+            software architecture.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
+            Each project presents a unique challenge, and I embrace every
+            opportunity to learn, adapt, and innovate. I am committed to
+            delivering high-quality software solutions that empower businesses
+            and enhance user experiences. Here's my{" "}
+            <br className="hidden md:block" />
             <Link
               className="underline"
               href={
@@ -72,8 +76,8 @@ export default function About() {
               Frontend Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Redux
-              Toolkit, React Query, HTML5, Git/GitHub, React Hook Form, Formik.
+              JavaScript(ES6+), React, Next.js, Redux, , HTML5, Git/GitHub,
+              React Hook Form.
             </AnimatedBody>
           </div>
           <div>
@@ -85,8 +89,7 @@ export default function About() {
               UI Libraries
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Styled Components, Chakra UI, Framer
-              Motion, Bootstrap, ReCharts.
+              CSS3, Tailwind CSS, Styled Components, Chakra UI, Bootstrap.
             </AnimatedBody>
           </div>
           <div>
@@ -95,10 +98,12 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Design Tools
+              Backend & Database
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, UX Research, UI Design, Prototyping.
+              Node.js, Express.js, .NET, SQL (MySQL), MongoDB,
+              REST APIs, Authentication & Authorization Redis,
+              WebSockets.
             </AnimatedBody>
           </div>
         </div>

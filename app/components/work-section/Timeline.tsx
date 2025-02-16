@@ -7,30 +7,29 @@ const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
   {
-    companyImg: "/bluechip.svg",
-    jobTitle: "Software Engineer",
-    company: "Bluechip Technologies",
-    jobType: "Internship",
-    duration: "Mar 2024 - Sept 2024",
+    companyImg: "/KrishnaTechs.jpg",
+    jobTitle: "Full Stack Web Developer",
+    company: "Krishna Techs",
+    jobType: "Full Time",
+    duration: "August 2024 – Present",
     stuffIDid: [
-      "Developed fully responsive sidebars for an API marketplace web app utilizing ChakraUI for context menus, mobile drawer menus, and modals to simplify adding, viewing, updating, and deleting data.",
-      "Built a reusable table component that reduced code by 15%, improving code efficiency and maintainability.",
-      "Collaborated with a senior frontend engineer to develop various application screens, streamlining development and collaboration using GitHub",
-      "Worked on a Learning Management System fixing bugs on the frontend while adding and improving features in tandem with the backend developer using Bootsrap and React Bootstrap to streamline component styling.",
-      "Integrated seven endpoints in the Role Based Access Control (RBAC) module of a Revenue Assurance application ensuring CRUD operations could be easily performed by the admin.",
-      "Developed HTML Templates for partner companies including the financial firm KPMG.",
+      "Developing and maintaining full-stack web applications, ensuring seamless integration between frontend and backend services.",
+      "Building dynamic and interactive user interfaces using React.js and modern UI frameworks.",
+      "Enhancing website performance and user engagement through optimized animations and responsive design.",
+      
     ],
   },
   {
-    companyImg: "/nnpc.svg",
-    jobTitle: "Intern",
-    company: "NNPC",
-    jobType: "Internship",
-    duration: "July 2023 - Sept. 2023",
+    companyImg: "/FlyMedia.jpg",
+    jobTitle: "Web Developer",
+    company: "Flymedia Technology",
+    jobType: "Full Time",
+    duration: "February 2024 – July 2024",
     stuffIDid: [
-      "Came up with cross functional login & sign up page designs that are now integral parts of the tools used within the company.",
-      "Led a team of fellow interns to design various templates and UI components common in internal applications such as dashboards, notification tabs, multi-step forms, tables with pagination etc. while making very impactful contributions.",
-      "I also helped interns grasp the basics of design enabling them to make meaningful contributions.",
+      "Designed and developed responsive React-based front-end interfaces using HTML, CSS, and JavaScript.",
+      "Built and customized reusable React components to create dynamic and interactive web applications.",
+      "Optimized website performance by implementing React hooks, state management (useState, useEffect), and lazy loading.",
+      "Ensured cross-browser compatibility, mobile responsiveness, and smooth website functionality.",
     ],
   },
 ];

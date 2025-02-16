@@ -95,9 +95,9 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+            Sagar Kumar
           </span>
-          <p>a Software Engineer</p>
+          <p>a Fullstack Web Developer</p>
         </motion.h1>
 
         <motion.p
@@ -105,7 +105,7 @@ export default function Hero() {
           animate={animateIn2}
           className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
-          currently focused on building user experiences that drive growth.
+          Building scalable web solutions and seamless user experiences.
         </motion.p>
       </div>
 
@@ -119,7 +119,7 @@ export default function Hero() {
           animate={animateIn1}
         >
           <Image
-            src="/transparent-ade-min.png"
+            src="/Sagar.png"
             priority
             fill
             alt="Ade's picture"
