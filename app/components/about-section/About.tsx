@@ -34,7 +34,7 @@ export default function About() {
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             My passion lies in crafting robust, scalable, and user-centric
-            applications that drive business success. Whether it's developing a
+            applications that drive business success. Whether it&apos;s developing a
             feature-rich web platform, optimizing backend systems for
             efficiency, or designing seamless user experiences, I thrive on
             solving complex challenges through code.
@@ -52,7 +52,7 @@ export default function About() {
             Each project presents a unique challenge, and I embrace every
             opportunity to learn, adapt, and innovate. I am committed to
             delivering high-quality software solutions that empower businesses
-            and enhance user experiences. Here's my{" "}
+            and enhance user experiences. Here&apos;s my{" "}
             <br className="hidden md:block" />
             <Link
               className="underline"
@@ -62,7 +62,6 @@ export default function About() {
             >
               my résumè
             </Link>
-            .
           </AnimatedBody>
         </div>
 
