@@ -100,8 +100,8 @@ export default function About() {
               Backend & Database
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Node.js, Express.js, .NET, SQL (MySQL), MongoDB,
-              REST APIs, Authentication & Authorization Redis,
+              Node.js, Express.js, SQL (MySQL), MongoDB,
+              REST APIs, Authentication,
               WebSockets.
             </AnimatedBody>
           </div>

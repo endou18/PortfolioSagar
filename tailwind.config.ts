@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        kumbhSans: ["Kumbh Sans", "sans-serif"],
+        kumbhSans: ["Open Sans", "sans-serif"],
       },
       backgroundImage: {
         // "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

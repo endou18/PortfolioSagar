@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
-import { Kumbh_Sans } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Header from "./components/header-section/Header";
 import { ViewProvider } from "@/contexts/ViewContext";
 
-const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
+const kumbhSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sagar Kumar — Full Stack Web Developer",

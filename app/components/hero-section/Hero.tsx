@@ -110,7 +110,7 @@ export default function Hero() {
       </div>
 
       {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
+      <div data-blobity-tooltip="Sagar">
         <motion.div
           ref={imgRef}
           style={{ rotate }}
@@ -121,8 +121,9 @@ export default function Hero() {
           <Image
             src="/Sagar.png"
             priority
-            fill
-            alt="Ade's picture"
+            width={500}
+              height={500}
+            alt="Sagar's picture"
             className="bg-image-radial px-10 pt-20"
           />
         </motion.div>

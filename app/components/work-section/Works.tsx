@@ -13,31 +13,24 @@ export default function Works() {
 
   const works = [
     {
-      title: "Number Guessing Game (Binary Search Algorithm)",
+      title: "Password Manager",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      liveLink: "https://frontend-password-manager-ten.vercel.app/",
+      gitLink: "https://github.com/sagarkumar1302/Frontend-Password-Manager",
       about:
-        "Developed a console-based game that uses Binary Search Algorithm to guess the user’s number efficiently.Implemented recursive logic to continuously narrow down the number range until the correct number is found.",
-      stack: ["binary search", "javascript",],
-      img: "/offset-folio.svg",
+        "It is a secure and user-friendly password manager designed to help users store and manage their credentials efficiently. The application emphasizes security, simplicity, and accessibility, allowing users to keep their sensitive information safe while accessing it seamlessly across devices.",
+      stack: ["MERN", "javascript","Tailwind", ],
+      img: "/PassManager.jpg",
     },
+    
     {
-      title: "Web Chat Application",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://lnk-shortener.netlify.app/",
+      title: "SecurePass",
+      gitLink: "https://github.com/sagarkumar1302/PassManager-Front-Auth",
+      liveLink: "https://pass-manager-front-auth.vercel.app/",
       about:
-        "Built a real-time chat application similar to WhatsApp, allowing users to send and receive messages instantly.Implemented JWT authentication and MongoDB database for secure user login and message storage.",
-      stack: ["react.js", "express.js", "chakra ui", "node.js","socket.io", "mongo db"],
-      img: "/shortly.svg",
-    },
-    {
-      title: "E-Commerce Website",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
-      about:
-        "Developed a full-stack e-commerce platform with a user-friendly interface, dynamic pricing, and interactive offers.Integrated a payment gateway (Stripe API) for secure transactions.",
-      stack: ["react", "react-router", "javascript", "tailwindcss", "Stripe"],
-      img: "/witw.svg",
+        "A robust password manager with authentication, ensuring only authorized users can access their stored credentials. With advanced security measures and seamless login functionality, it protects user data while providing a smooth experience.",
+      stack: ["MERN", "react-router", "javascript", "tailwindcss", "Jwt"],
+      img: "/PassSecure.jpg",
     },
     // {
     //   title: "Yourtodo",
@@ -49,13 +42,22 @@ export default function Works() {
     //   img: "/todo.svg",
     // },
     {
+      title: "Web Chat Application",
+      gitLink: "https://github.com/sagarkumar1302/ChatAppFrontEnd",
+      liveLink: "https://chat-appfrnt.vercel.app/",
+      about:
+        "Built a real-time chat application similar to WhatsApp, allowing users to send and receive messages instantly.Implemented JWT authentication and MongoDB database for secure user login and message storage.",
+      stack: ["react.js", "express.js", "tailwind", "node.js","socket.io", "mongo db"],
+      img: "/WebChat.jpg",
+    },
+    {
       title: "Shop Stock Management",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://ade-loremgaming.netlify.app/",
+      gitLink: "https://mahashakti-jewellers.vercel.app/",
+      liveLink: "https://github.com/sagarkumar1302/MahashaktiJewellers/",
       about:
         "Developed a stock management system to track gold and silver prices, storing historical data for reference.Implemented a sorting feature to efficiently filter stock and transaction history.",
-      stack: ["react.js", "mongo db", "material ui", "express.js", "node.js"],
-      img: "/multistep.svg",
+      stack: ["react.js", "mongo db", "express.js", "node.js"],
+      img: "/Shop.jpg",
     },
   ];
 
@@ -70,7 +72,7 @@ export default function Works() {
 
   return (
     <section
-      className="flex flex-col gap-6 md:gap-10 pt-[110px]"
+      className="flex flex-col gap-6 md:gap-10 pt-[70px] md:pt-[0px]"
       ref={ref}
       id="work"
     >

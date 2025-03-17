@@ -105,9 +105,9 @@ export default function Contact() {
           <div
             className={` ${
               syne.className
-            } flex justify-between items-center w-full duration-1000 ${
+            } flex md:justify-between items-center w-full duration-1000 ${
               formDisplay && "opacity-0"
-            }`}
+            } md:flex-row flex-col justify-center`}
           >
             <div className="inline w-full">
               <AnimatedTitle
